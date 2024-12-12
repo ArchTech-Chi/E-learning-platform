@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      
+body{
+    font-family:'poppins',sans-serif ;
+    background-image: linear-gradient(to top,grey,white, #127EB8);
+    background-repeat: no-repeat;
+    box-shadow: 1px solid rgba(209, 194, 232, 0.41);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2em;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 300px;
+    height: 120vh;
+}
+h3, h2{
+    text-align: center;
+}
+
+.input__field{
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 10px;
+    margin: 20px;
+    
+}
+button{
+    background-color:blue;
+    color: white;
+    border: none;
+    margin: 20px;
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.367);
+    transition: 1s ease;
+    cursor: pointer;
+}
+input{
+    margin: 20px;
+    border: 1px solid blue
+}
+label{
+    margin: 0px;
+    font-size: 15px;
+    text-indent: 10px;
+}
+.survey__form{
+    font-weight: bold;
+}
+.radio__container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input[type=radio]{
+   height: 17px;
+   width: 17px;
+}
+input[type=checkbox]{
+    height: 17px;
+   width: 17px;
+
+ }
+ .row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+a{
+    color: green;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+    
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.col-md-6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo-container{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+h2{
+    font-weight: bold;
+    color: gray;
+}
+.float-right{
+    text-align: center;
+}

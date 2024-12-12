@@ -31,12 +31,14 @@ form{
     font-size: 30px;
  }
 
- /* .button{ border-radius: 10px;
-    height: 60px;
-    width: 100px;
-    color: #f4f4f4;
-    background-color: #00274D; } 
-     */
+ .input_field{
+   height: 30px;
+   border-radius: 10px;
+   outline: none;
+   text-indent: 10px;
+   margin: 20px;
+   border: 1px solid blue
+    }
 
  .button_container{
     margin: 0;
