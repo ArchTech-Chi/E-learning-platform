@@ -1,0 +1,36 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics 1 Quiz</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Physics 1 Quiz</h1>
+    </header>
+    <main>
+        <div class="quiz-container">
+            <div class="intro">
+                <h2>Instructions</h2>
+                <p>This exam is for 15 minutes. Please enter your name and registration number below.</p>
+                <form id="intro-form">
+                    <label for="name">Enter your name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" class="input__field"><br><br>
+                    <label for="registration-number">Enter your registration number:</label>
+                    <input type="text" id="registration-number" name="registration-number" placeholder="Enter your registration number" class="input__field"><br><br>
+                </form>
+            </div>
+            <div id="questions"></div>
+            <div class="button-container">
+                <button id="submit">Submit</button>
+            </div>
+            <div id="results" style="display: none;"></div>
+        </div>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ga+Maamli&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+font-family:"Roboto", serif;
+background-image: linear-gradient(to top,grey,white, #127EB8);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    background-color: rgb(240, 245, 245);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top:10px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ .checkbox_container{
+    display: flex;
+    flex-direction:row;
+    padding-top: 20px;
+    gap: 1em;
+ }
+ .tick{
+    font-size: 30px;
+ }
+
+ /* .button{ border-radius: 10px;
+    height: 60px;
+    width: 100px;
+    color: #f4f4f4;
+    background-color: #00274D; } 
+     */
+
+ .button_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00274D;
+    color: antiquewhite;
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 100%;
+    text-align: center;
+ }
+
+ .social-icons{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color:#127EB8;
+    gap: 10px; }
+
+
+    .Login{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
