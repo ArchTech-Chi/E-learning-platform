@@ -122,7 +122,3 @@ submitButton.addEventListener("click", () => {
         <p>Score: ${score} out of ${questions.length}</p>
     `;
 });
-<<<<<<< HEAD
-
-=======
->>>>>>> 097266c5359496a0a00b566cfb71ffa99832a909
